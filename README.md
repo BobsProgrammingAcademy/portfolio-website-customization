@@ -190,28 +190,28 @@ This section describes how to customize the application.
 
 #### 1. About
 
-To modify the title and subtitle of the About section, make changes in the `frontend/src/components/About.js` file.
+To modify the title and subtitle of the **About** section, make changes in the ```frontend/src/components/About.js``` file.
 
 #### 2. Projects
 
-To modify the title and subtitle of the Projects section, make changes in the `frontend/src/components/Projects.js` file.
+To modify the title and subtitle of the **Projects** section, make changes in the ```frontend/src/components/Projects.js``` file.
 
 #### 3. Technologies
 
-To modify the title and subtitle of the Technologies section, make changes in the `frontend/src/components/Technologies.js` file.
+To modify the title and subtitle of the **Technologies** section, make changes in the ```frontend/src/components/Technologies.js``` file.
 
 #### 4. Contact
 
-To modify the title and subtitle of the Contact section, make changes in the `frontend/src/components/Contact.js` file.
+To modify the title and subtitle of the **Contact** section, make changes in the ```frontend/src/components/Contact.js``` file.
 
 ### Changing Colors
 
-To modify the colors in the application, make changes in the `frontend/src/theme/theme.js` file.
+To modify the colors in the application, make changes in the ```frontend/src/theme/theme.js``` file.
 
 ### Changing Fonts
 
-To modify the fonts in the application, first, add a new font to the `frontend/src/pages/_document.js` file, and then make changes in the `frontend/src/theme/typography.js` file.
+To modify the fonts in the application, first, add a new font to the ```frontend/src/pages/_document.js``` file, and then make changes in the ```frontend/src/theme/typography.js``` file.
 
 ### Changing Logo
 
-To modify the logo in the application, make changes in the `frontend/src/layout/Header.js` file.
+To modify the logo in the application, make changes in the ```frontend/src/layout/Header.js``` file.
