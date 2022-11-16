@@ -17,6 +17,7 @@ This is a portfolio website built using **Django 3.2**, **Next.js 12**, and **Ma
 - [Running the application](#run-the-application)
 - [Adding data to the application](#add-data-to-the-application)
 - [Customizing the application](#customize-the-application)
+- [Copyright and License](#copyright-and-license)
 
 
 ## Prerequisites
@@ -237,3 +238,8 @@ To modify the fonts in the application, first, add a new font to the ```frontend
 ### Changing Logo
 
 To modify the logo in the application, make changes in the ```frontend/src/layout/Header.js``` and ```frontend/src/layout/Sidebar.js``` files.
+
+
+## Copyright and License
+
+Copyright © 2022 Bob's Programming Academy. Code released under the MIT license.
