@@ -86,7 +86,7 @@ DATABASES = {
         'USER': env('DATABASE_USER'),
         'PASSWORD': env('DATABASE_PASS'),
         'HOST': env('DATABASE_HOST'),
-        'PORT': '', # leave blank so the default port is selected
+        'PORT': '',  # leave blank so the default port is selected
     }
 }
 
@@ -151,4 +151,4 @@ CORS_ALLOWED_ORIGINS = [
 ]
 
 
-FILE_UPLOAD_PERMISSIONS=0o640
+FILE_UPLOAD_PERMISSIONS = 0o640
