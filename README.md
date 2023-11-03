@@ -35,7 +35,7 @@ Install the following prerequisites:
 
 #### 1. Create a virtual environment
 
-From the **root** directory run:
+From the **root** directory, run:
 
 ```bash
 cd backend
@@ -47,7 +47,7 @@ python -m venv venv
 
 #### 2. Activate the virtual environment
 
-From the **backend** directory run:
+From the **backend** directory, run:
 
 On macOS:
 
@@ -63,7 +63,7 @@ venv\scripts\activate
 
 #### 3. Install required backend dependencies
 
-From the **backend** directory run:
+From the **backend** directory, run:
 
 ```bash
 pip install -r requirements.txt
@@ -103,7 +103,7 @@ To quit **psql**, run:
 
 #### 5. Set up backend environment variables
 
-From the **backend** directory run:
+From the **backend** directory, run:
 
 ```bash
 touch config/.env
@@ -124,7 +124,7 @@ FRONTEND_URL=http://localhost:3000
 
 #### 6. Run migrations
 
-From the **backend** directory run:
+From the **backend** directory, run:
 
 ```bash
 python manage.py makemigrations
@@ -136,7 +136,7 @@ python manage.py migrate
 
 #### 7. Create an admin user to access the Django Admin interface
 
-From the **backend** directory run:
+From the **backend** directory, run:
 
 ```bash
 python manage.py createsuperuser
@@ -148,7 +148,7 @@ When prompted, enter a username, email, and password.
 
 #### 1. Install required frontend dependencies
 
-From the **root** directory run:
+From the **root** directory, run:
 
 ```bash
 cd frontend
@@ -160,7 +160,7 @@ npm install
 
 #### 2. Set up frontend environment variables
 
-From the **frontend** directory run:
+From the **frontend** directory, run:
 
 ```bash
 touch .env.development && touch .env.production
@@ -181,7 +181,7 @@ To run the application, you need to have both the backend and the frontend up an
 
 #### 1. Run backend
 
-From the **backend** directory run:
+From the **backend** directory, run:
 
 ```bash
 python manage.py runserver
@@ -189,7 +189,7 @@ python manage.py runserver
 
 #### 2. Run frontend
 
-From the **frontend** directory run:
+From the **frontend** directory, run:
 
 ```bash
 npm run dev
