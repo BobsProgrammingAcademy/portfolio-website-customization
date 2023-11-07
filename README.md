@@ -71,7 +71,7 @@ pip install -r requirements.txt
 
 #### 4. Set up a PostgreSQL database
 
-With **PostgreSQL** up and running, in a new Terminal window run:
+With **PostgreSQL** up and running, in a new Terminal window, run:
 
 ```bash
 dropdb --if-exists portfolio
