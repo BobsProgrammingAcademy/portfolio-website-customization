@@ -29,7 +29,7 @@ const Hero = () => {
       .then((response) => {
         setHero(response.data);
       })
-      .catch((err) => console.log(err));
+      .catch((error) => console.log(error));
   };
 
   React.useEffect(() => {
@@ -158,7 +158,7 @@ const Hero = () => {
             </Box>
           ))}
         </Container>
-        <Divider sx={{ mt: 3 }} />
+        <Divider sx={{ marginTop: 3 }} />
       </Box>
     </div>
   );
