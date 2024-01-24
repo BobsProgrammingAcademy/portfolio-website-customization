@@ -31,5 +31,8 @@
     "react-dom": "^18.2.0",
     "react-lazy-load-image-component": "^1.5.1",
     "react-leaflet": "^4.2.1"
+  },
+  "devDependencies": {
+    "prettier": "^3.2.4"
   }
 }
