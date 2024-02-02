@@ -215,6 +215,13 @@ python manage.py test --pattern="tests.py"
 
 ```
 
+#### 2. Run the frontend tests
+
+From the **frontend** directory, run:
+
+```bash
+npm run test
+```
 
 ## Add data to the application
 
