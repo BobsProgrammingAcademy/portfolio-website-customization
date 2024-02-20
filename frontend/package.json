@@ -2,6 +2,8 @@
   "name": "portfolio-website",
   "version": "1.0.0",
   "description": "Portfolio Website",
+  "author": "MG",
+  "license": "MIT",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -14,8 +16,6 @@
     "lint": "eslint --ext .js,.jsx ./src --no-error-on-unmatched-pattern",
     "lint:fix": "eslint --ext .js,.jsx ./src --no-error-on-unmatched-pattern --fix"
   },
-  "author": "MG",
-  "license": "MIT",
   "dependencies": {
     "@emotion/cache": "^11.7.1",
     "@emotion/react": "^11.8.1",
