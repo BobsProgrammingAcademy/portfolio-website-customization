@@ -1,4 +1,4 @@
-import React from 'react';
+import { useEffect, useState } from 'react';
 import axios from 'axios';
 import Box from '@mui/material/Box';
 import Divider from '@mui/material/Divider';
@@ -13,7 +13,7 @@ import { useTheme } from '@mui/material/styles';
 const About = () => {
   const theme = useTheme();
 
-  const [about, setAbout] = React.useState([]);
+  const [about, setAbout] = useState([]);
 
   const fetchAbout = () => {
     axios
@@ -29,7 +29,7 @@ const About = () => {
       .catch((error) => console.log(error));
   };
 
-  React.useEffect(() => {
+  useEffect(() => {
     fetchAbout();
   }, []);
 
