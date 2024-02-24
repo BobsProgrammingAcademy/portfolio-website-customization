@@ -1,4 +1,4 @@
-import React from 'react';
+import { useEffect, useState } from 'react';
 import { useTheme } from '@mui/material/styles';
 import { MapContainer, Circle, TileLayer } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css';
@@ -7,9 +7,9 @@ const Map = ({ coordinates, zoom }) => {
   const theme = useTheme();
   const position = coordinates;
   const fillBlueOptions = { fillColor: theme.palette.primary.main };
-  const [map, setMap] = React.useState(null);
+  const [map, setMap] = useState(null);
 
-  React.useEffect(() => {
+  useEffect(() => {
     if (map) {
       setInterval(function () {
         map.invalidateSize();
