@@ -1,4 +1,4 @@
-import React from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import axios from 'axios';
 import dynamic from 'next/dynamic';
 import Avatar from '@mui/material/Avatar';
@@ -15,7 +15,7 @@ import { useTheme } from '@mui/material/styles';
 const Contact = () => {
   const theme = useTheme();
 
-  const [contact, setContact] = React.useState([]);
+  const [contact, setContact] = useState([]);
 
   const fetchContact = () => {
     axios
@@ -31,11 +31,11 @@ const Contact = () => {
       .catch((error) => console.log(error));
   };
 
-  React.useEffect(() => {
+  useEffect(() => {
     fetchContact();
   }, []);
 
-  const Map = React.useMemo(
+  const Map = useMemo(
     () =>
       dynamic(() => import('./Map'), {
         loading: () => <p>A map is loading...</p>,
