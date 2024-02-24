@@ -1,4 +1,4 @@
-import React from 'react';
+import { useEffect, useState } from 'react';
 import axios from 'axios';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import Box from '@mui/material/Box';
@@ -16,7 +16,7 @@ const Hero = () => {
     defaultMatches: true,
   });
 
-  const [hero, setHero] = React.useState([]);
+  const [hero, setHero] = useState([]);
 
   const fetchHero = () => {
     axios
@@ -32,7 +32,7 @@ const Hero = () => {
       .catch((error) => console.log(error));
   };
 
-  React.useEffect(() => {
+  useEffect(() => {
     fetchHero();
   }, []);
 
