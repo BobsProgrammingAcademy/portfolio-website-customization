@@ -1,4 +1,4 @@
-import React from 'react';
+import { useEffect, useState } from 'react';
 import axios from 'axios';
 import Image from 'next/image';
 import Avatar from '@mui/material/Avatar';
@@ -13,7 +13,7 @@ import { useTheme } from '@mui/material/styles';
 const Technologies = () => {
   const theme = useTheme();
 
-  const [technologies, setTechnologies] = React.useState([]);
+  const [technologies, setTechnologies] = useState([]);
 
   const fetchTechnologies = () => {
     axios
@@ -29,7 +29,7 @@ const Technologies = () => {
       .catch((error) => console.log(error));
   };
 
-  React.useEffect(() => {
+  useEffect(() => {
     fetchTechnologies();
   }, []);
 
