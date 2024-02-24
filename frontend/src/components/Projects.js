@@ -1,4 +1,4 @@
-import React from 'react';
+import { useEffect, useState } from 'react';
 import axios from 'axios';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import Box from '@mui/material/Box';
@@ -16,7 +16,7 @@ import { useTheme } from '@mui/material/styles';
 const Projects = () => {
   const theme = useTheme();
 
-  const [projects, setProjects] = React.useState([]);
+  const [projects, setProjects] = useState([]);
 
   const fetchProjects = () => {
     axios
@@ -32,7 +32,7 @@ const Projects = () => {
       .catch((error) => console.log(error));
   };
 
-  React.useEffect(() => {
+  useEffect(() => {
     fetchProjects();
   }, []);
 
