@@ -2,11 +2,11 @@
 
 This is a portfolio website built using **Django 4**, **Django REST Framework 3**, **Next.js 13**, and **Material UI 5**. The app uses a **PostgreSQL** database to store data.
 
-### Dark mode:
+## Dark mode:
 
 ![plot](https://github.com/BobsProgrammingAcademy/Portfolio-Website-Customization/blob/main/frontend/public/images/dark_theme.png?raw=true)
 
-### Light mode:
+## Light mode:
 
 ![plot](https://github.com/BobsProgrammingAcademy/Portfolio-Website-Customization/blob/main/frontend/public/images/light_theme.png?raw=true)
 
@@ -20,7 +20,6 @@ This is a portfolio website built using **Django 4**, **Django REST Framework 3*
 - [Customizing the application](#customize-the-application)
 - [Copyright and License](#copyright-and-license)
 
-
 ## Prerequisites
 
 Install the following prerequisites:
@@ -30,7 +29,6 @@ Install the following prerequisites:
 2. [Node.js](https://nodejs.org/en/)
 3. [PostgreSQL](https://www.postgresql.org/download/)
 4. [Visual Studio Code](https://code.visualstudio.com/download)
-
 
 ## Installation
 
@@ -178,12 +176,11 @@ BACKEND_HOST=127.0.0.1
 BACKEND_URL=http://127.0.0.1:8000
 ```
 
-
 ## Run the application
 
 To run the application, you need to have both the backend and the frontend up and running.
 
-#### 1. Run backend
+### 1. Run backend
 
 From the **backend** directory, run:
 
@@ -191,7 +188,7 @@ From the **backend** directory, run:
 python manage.py runserver
 ```
 
-#### 2. Run frontend
+### 2. Run frontend
 
 From the **frontend** directory, run:
 
@@ -199,14 +196,13 @@ From the **frontend** directory, run:
 npm run dev
 ```
 
-#### 3. View the application
+### 3. View the application
 
 Go to http://localhost:3000/ to view the application.
 
+## Run the tests
 
-### Run the tests
-
-#### 1. Run the backend tests
+### 1. Run the backend tests
 
 From the **backend** directory, run:
 
@@ -215,7 +211,7 @@ python manage.py test --pattern="tests.py"
 
 ```
 
-#### 2. Run the frontend tests
+### 2. Run the frontend tests
 
 From the **frontend** directory, run:
 
@@ -266,7 +262,6 @@ To modify the logo in the application, make changes in the `frontend/src/layout/
 ### Changing Buttons in the Hero Section
 
 To modify the two buttons in the Hero section, make changes in the `frontend/src/components/HeroButtons.js` file.
-
 
 ## Copyright and License
 
