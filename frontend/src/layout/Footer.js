@@ -1,4 +1,4 @@
-import React from 'react';
+import { useEffect, useState } from 'react';
 import axios from 'axios';
 import Box from '@mui/material/Box';
 import Divider from '@mui/material/Divider';
@@ -14,7 +14,7 @@ import { useTheme } from '@mui/material/styles';
 const Footer = () => {
   const theme = useTheme();
 
-  const [footer, setFooter] = React.useState([]);
+  const [footer, setFooter] = useState([]);
 
   const fetchFooter = () => {
     axios
@@ -30,7 +30,7 @@ const Footer = () => {
       .catch((err) => console.log(err));
   };
 
-  React.useEffect(() => {
+  useEffect(() => {
     fetchFooter();
   }, []);
 
