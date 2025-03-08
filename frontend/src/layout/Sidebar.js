@@ -1,4 +1,6 @@
 import PropTypes from 'prop-types';
+
+// Material UI
 import Link from 'next/link';
 import Avatar from '@mui/material/Avatar';
 import Box from '@mui/material/Box';
