@@ -32,6 +32,7 @@ import { faGraduationCap } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 library.add(faGraduationCap);
 
+// Components
 import ColorModeContext from '../components/ColorModeContext';
 import CustomButton from '../components/CustomButton';
 
